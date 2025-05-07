@@ -1,0 +1,55 @@
+/* App.css */
+/* Thêm các style mới */
+.sidebar {
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.sidebar-title {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.sidebar-link:hover {
+  background-color: #495057;
+  transform: translateX(5px);
+}
+
+.sidebar-link.active {
+  background-color: #007bff;
+  font-weight: 500;
+}
+
+.logout-button {
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.logout-button:hover {
+  background-color: #c82333 !important;
+  transform: translateY(-2px);
+}
+
+.content {
+  padding: 30px;
+}
+
+/* Giữ nguyên các style cũ */
+.sidebar-link:hover {
+  background-color: #495057;
+  transition: background-color 0.3s;
+}
+
+.sidebar-link.active {
+  background-color: #007bff;
+}
