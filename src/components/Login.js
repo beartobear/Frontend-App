@@ -31,7 +31,7 @@ const Login = () => {
         <div style={styles.container}>
             <div style={styles.loginCard}>
                 <div style={styles.logoContainer}>
-                    <h1 style={styles.logo}>SACHISUSA</h1>
+                    <h1 style={styles.logo}>NQN</h1>
                     <p style={styles.slogan}>Hệ thống quản lý kho hàng</p>
                 </div>
                 
